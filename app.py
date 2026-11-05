@@ -87,24 +87,29 @@ with col1:
       '<div class="app-card"><h4>✨ Mi Primera App</h4></div>',
       unsafe_allow_html=True,
   )
-  # PEGA AQUÍ TU URL REAL DE MI-PRIMERA-APP
-  st.link_button("Abrir App ↗", "https://mi-primera-app-a2ad8xawazwjcamzkwuaze.streamlit.app/")
+  st.link_button(
+      "Abrir App ↗",
+      "https://mi-primera-app-a2ad8xawazwjcamzkwuaze.streamlit.app/",
+  )
 
 with col2:
   st.markdown(
       '<div class="app-card"><h4>📖 Lector de Fábulas</h4></div>',
       unsafe_allow_html=True,
   )
-  # PEGA AQUÍ TU URL REAL DE LECTOR-DE-FABULAS
-  st.link_button("Abrir App ↗", "https://lector-de-fabulas-onlmswaqnqekpw8isal7yf.streamlit.app/")
+  st.link_button(
+      "Abrir App ↗",
+      "https://lector-de-fabulas-onlmswaqnqekpw8isal7yf.streamlit.app/",
+  )
 
 with col3:
   st.markdown(
       '<div class="app-card"><h4>☁️ Wordcloud Studio</h4></div>',
       unsafe_allow_html=True,
   )
-  # PEGA AQUÍ TU URL REAL DE WORDCLOUD-STUDIO
-  st.link_button("Abrir App ↗", "https://wordcloud-studio-wkkt85jjfjj88unbf87wkm.streamlit.app/")
+  st.link_button(
+      "Abrir App ↗", "https://wordcloud-studio-wkkt85jjfjj88unbf87wkm.streamlit.app/"
+  )
 
 st.markdown("---")
 
@@ -119,24 +124,30 @@ with col4:
       '<div class="app-card"><h4>🌐 Traductor de Fotos</h4></div>',
       unsafe_allow_html=True,
   )
-  # PEGA AQUÍ TU URL REAL DE TRADUCTOR-DE-FOTOS
-  st.link_button("Abrir App ↗", "https://traductor-de-fotos-gxjbmrf6dqnz4mmr98uote.streamlit.app/")
+  st.link_button(
+      "Abrir App ↗",
+      "https://traductor-de-fotos-gxjbmrf6dqnz4mmr98uote.streamlit.app/",
+  )
 
 with col5:
   st.markdown(
       '<div class="app-card"><h4>📄 Transcritor Fotos OCR</h4></div>',
       unsafe_allow_html=True,
   )
-  # PEGA AQUÍ TU URL REAL DE TRANSCRITOR-FOTOS-OCR
-  st.link_button("Abrir App ↗", "https://transcritor-fotos-ocr-4hkehuod46sszqcyh9ixmy.streamlit.app/")
+  st.link_button(
+      "Abrir App ↗",
+      "https://transcritor-fotos-ocr-4hkehuod46sszqcyh9ixmy.streamlit.app/",
+  )
 
 with col6:
   st.markdown(
       '<div class="app-card"><h4>🎯 YOLOv5 Streamlit App</h4></div>',
       unsafe_allow_html=True,
   )
-  # PEGA AQUÍ TU URL REAL DE YOLOV5-STREAMLIT-APP
-  st.link_button("Abrir App ↗", "https://yolov5-app-app-edztza6lgf84s9ctbuamxr.streamlit.app/")
+  st.link_button(
+      "Abrir App ↗",
+      "https://yolov5-app-app-edztza6lgf84s9ctbuamxr.streamlit.app/",
+  )
 
 st.markdown("---")
 
@@ -144,12 +155,43 @@ st.markdown("---")
 # SECCIÓN 3: PROCESAMIENTO DE TEXTO Y NLP
 # ==========================================
 st.markdown("### 💬 Procesamiento de Lenguaje Natural (NLP)")
-col7, _ = st.columns([1, 2])
+col7, col8 = st.columns(2)
 
 with col7:
   st.markdown(
       '<div class="app-card"><h4>📊 Analizador de Sentimientos</h4></div>',
       unsafe_allow_html=True,
   )
-  # PEGA AQUÍ TU URL REAL DE ANALIZADOR-SENTIMIENTOS
-  st.link_button("Abrir App ↗", "https://analizador-sentimientos.streamlit.app")
+  st.link_button("Abrir App ↗", "https://hhy4fvxoujrgnx8svexgrt.streamlit.app/")
+
+with col8:
+  st.markdown(
+      '<div class="app-card"><h4>🔍 Búsqueda TF-IDF</h4></div>',
+      unsafe_allow_html=True,
+  )
+  # Reemplaza con la URL real de tu app TF-IDF cuando la despliegues
+  st.link_button("Abrir App ↗", "https://gozwnplr4q8bgopwc7zllc.streamlit.app/")
+
+st.markdown("---")
+
+# ==========================================
+# SECCIÓN 4: INTERACCIÓN Y GESTOS (MEDIAPIPE)
+# ==========================================
+st.markdown("### ✋ Interacción Multimodal y Visión en Vivo")
+col9, col10 = st.columns(2)
+
+with col9:
+  st.markdown(
+      '<div class="app-card"><h4>✋ Gestos con la Mano</h4></div>',
+      unsafe_allow_html=True,
+  )
+  # Reemplaza con la URL real de tu app de gestos con la mano
+  st.link_button("Abrir App ↗", "https://reconocimiento-gestos-mano-app-n5euvkxy3drpd3pnenpcpc.streamlit.app/")
+
+with col10:
+  st.markdown(
+      '<div class="app-card"><h4>🕺 Baile Y.M.C.A.</h4></div>',
+      unsafe_allow_html=True,
+  )
+  # Reemplaza con la URL real de tu app de YMCA
+  st.link_button("Abrir App ↗", "https://reconocimiento-ymca-app-bgycbk7erdxddmtzjbvnvl.streamlit.app/")
