@@ -155,7 +155,7 @@ st.markdown("---")
 # SECCIÓN 3: PROCESAMIENTO DE TEXTO Y NLP
 # ==========================================
 st.markdown("### 💬 Procesamiento de Lenguaje Natural (NLP)")
-col7, col8 = st.columns(2)
+col7, col8, col9 = st.columns(3)
 
 with col7:
   st.markdown(
@@ -169,29 +169,102 @@ with col8:
       '<div class="app-card"><h4>🔍 Búsqueda TF-IDF</h4></div>',
       unsafe_allow_html=True,
   )
-  # Reemplaza con la URL real de tu app TF-IDF cuando la despliegues
   st.link_button("Abrir App ↗", "https://gozwnplr4q8bgopwc7zllc.streamlit.app/")
+
+with col9:
+  st.markdown(
+      '<div class="app-card"><h4>💬 Analizador PDF (ChatPDF)</h4></div>',
+      unsafe_allow_html=True,
+  )
+  # Reemplaza con tu URL real de Streamlit Cloud al desplegar este repositorio
+  st.link_button("Abrir App ↗", "https://pn8y7cpggs8w72u7tbvyqo.streamlit.app/")
 
 st.markdown("---")
 
 # ==========================================
-# SECCIÓN 4: INTERACCIÓN Y GESTOS (MEDIAPIPE)
+# SECCIÓN 4: MODELOS VISUALES Y MULTIMODALES (GPT-4o & MNIST)
 # ==========================================
-st.markdown("### ✋ Interacción Multimodal y Visión en Vivo")
-col9, col10 = st.columns(2)
+st.markdown("### 🧠 Modelos Multimodales y Deep Learning")
+col10, col11, col12 = st.columns(3)
 
-with col9:
+with col10:
+  st.markdown(
+      '<div class="app-card"><h4>🖼️ Análisis de Imagen GPT-4o</h4></div>',
+      unsafe_allow_html=True,
+  )
+  # Reemplaza con tu URL real de Streamlit Cloud
+  st.link_button(
+      "Abrir App ↗", "https://cxnyrdhsvyikgvxyna7p54.streamlit.app/"
+  )
+
+with col11:
+  st.markdown(
+      '<div class="app-card"><h4>✍️ Detección de Dígitos MNIST</h4></div>',
+      unsafe_allow_html=True,
+  )
+  # Reemplaza con tu URL real de Streamlit Cloud
+  st.link_button(
+      "Abrir App ↗", "https://deteccion-digitos-mnist-bd5mkwhsilxj7alimvq2h5.streamlit.app/"
+  )
+
+with col12:
+  st.markdown(
+      '<div class="app-card"><h4>👗 Fashion Sketch Studio</h4></div>',
+      unsafe_allow_html=True,
+  )
+  # Reemplaza con tu URL real de Streamlit Cloud
+  st.link_button(
+      "Abrir App ↗", "https://fashion-sketch-studio-dvtlfpunemb5qns3ifjzp6.streamlit.app/"
+  )
+
+st.markdown("---")
+
+# ==========================================
+# SECCIÓN 5: ARTE GENERATIVO E INTERACCIÓN EN VIVO
+# ==========================================
+st.markdown("### 🎨 Arte Generativo & Interacción en Vivo")
+col13, col14, col15 = st.columns(3)
+
+with col13:
+  st.markdown(
+      '<div class="app-card"><h4>🌌 Cyber Art Studio (AI)</h4></div>',
+      unsafe_allow_html=True,
+  )
+  # Reemplaza con tu URL real de Streamlit Cloud
+  st.link_button("Abrir App ↗", "https://tu-enlace-cyber-art.streamlit.app/https://4ndrewx-cyber-art-studio-ai-app-nhfhra.streamlit.app/")
+
+with col14:
   st.markdown(
       '<div class="app-card"><h4>✋ Gestos con la Mano</h4></div>',
       unsafe_allow_html=True,
   )
-  # Reemplaza con la URL real de tu app de gestos con la mano
-  st.link_button("Abrir App ↗", "https://reconocimiento-gestos-mano-app-n5euvkxy3drpd3pnenpcpc.streamlit.app/")
+  st.link_button(
+      "Abrir App ↗",
+      "https://reconocimiento-gestos-mano-app-n5euvkxy3drpd3pnenpcpc.streamlit.app/",
+  )
 
-with col10:
+with col15:
   st.markdown(
       '<div class="app-card"><h4>🕺 Baile Y.M.C.A.</h4></div>',
       unsafe_allow_html=True,
   )
-  # Reemplaza con la URL real de tu app de YMCA
-  st.link_button("Abrir App ↗", "https://reconocimiento-ymca-app-bgycbk7erdxddmtzjbvnvl.streamlit.app/")
+  st.link_button(
+      "Abrir App ↗",
+      "https://reconocimiento-ymca-app-bgycbk7erdxddmtzjbvnvl.streamlit.app/",
+  )
+
+st.markdown("---")
+
+# ==========================================
+# SECCIÓN 6: SISTEMAS CIBERFÍSICOS E IOT
+# ==========================================
+st.markdown("### 🎙️ Interfaces Ciberfísicas e IoT")
+col16, _ = st.columns([1, 2])
+
+with col16:
+  st.markdown(
+      '<div class="app-card"><h4>🎙️ Control por Voz MQTT</h4></div>',
+      unsafe_allow_html=True,
+  )
+  # Reemplaza con tu URL real de Streamlit Cloud
+  st.link_button("Abrir App ↗", "https://control-voz-iot-app-uzmewbmyvtdkgfxtjtqhn2.streamlit.app/")
